@@ -1,0 +1,44 @@
+.section-7 {
+	background: url("../img/before-last.png") no-repeat;
+	height: 819px;
+	background-size: cover;
+	padding-top: 70px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: -45px;
+	h2 {
+		text-align: center;
+		span {
+			font-weight: 300;
+			background: #caeea7;
+			padding: 5px;
+			border-radius: 0 5px;
+		}
+	}
+	.title {
+		p {
+			font-family: $mont-font;
+			font-weight: 300;
+			font-size: 20px;
+			color: #1b1b1b;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+	.feedback {
+		margin-top: 60px;
+	}
+	.feedback-text {
+		p {
+			font-family: $mont-font;
+			font-weight: 300;
+			font-size: 16px;
+			color: #1b1b1b;
+			&:first-child {
+				font-weight: 700;
+				font-size: 18px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
