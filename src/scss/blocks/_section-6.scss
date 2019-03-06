@@ -1,54 +1,84 @@
 .section-6 {
-	background: #fffef6;
-	padding-top: 67px;
-	.section-6_text-block {
-		margin-top: 40px;
+	background: url("../img/last-bg.png") no-repeat center;
+	height: 924px;
+	padding: 65px 0 0 0;
+	margin-bottom: 84px;
+	.title {
+		text-align: center;
 	}
 	h2 {
-		text-align: left;
-		span {
-			font-weight: 300;
-		}
+		display: inline-block;
+		font-size: 42px;
+		color: #c29739;
+		border-bottom: 2px solid #c29739;
 	}
-	.title {
-		margin-bottom: 90px;
+	.main-text-block {
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: -76px;
+		position: relative;
+		z-index: 5;
+	}
+	.child_text-block {
+		margin-top: 15px;
 		p {
-			font-family: $mont-font;
-			font-weight: 300;
-			font-size: 19px;
-			color: #000000;
-			text-transform: uppercase;
-			text-align: left;
-			margin-top: 10px;
+			font-weight: 400;
+			color: #ffffff;
+			font-size: 18px;
+			&:last-child {
+				margin-top: 25px;
+				font-weight: 700;
+			}
 		}
 	}
-	.list {
-		padding-left: 0;
-		list-style-type: none;
-		li {
-			background: url("../img/item-1-copy.png") no-repeat 0 9px;
-			margin-bottom: 45px;
-			padding-left: 68px;
+	.list-block {
+		background: url("../img/small-kub-bg.png") no-repeat;
+		width: 100%;
+		height: 443px;
+		background-size: contain;
+		padding-top: 110px;
+		.description {
+			font-size: 24px;
+			font-weight: 700;
+			color: #c29739;
+			text-align: center;
+			margin-bottom: 35px;
+		}
+		.list-block_text {
+			text-align: center;
+			padding: 0 20px;
+			position: relative;
+			z-index: 20;
 			p {
-				font-family: $mont-font;
-				font-weight: 300;
-				font-size: 16px;
-				color: #000000;
-				text-align: left;
-				&:first-child {
-					font-weight: 700;
-					font-size: 22px;
-					text-transform: uppercase;
+				font-size: 18px;
+				font-weight: 700;
+				color: #ffffff;
+				margin-top: 25px;
+				span {
+					font-weight: 400;
 				}
 			}
-			&:nth-child(2) {
-				background: url("../img/item-2-copy.png") no-repeat 0 9px;
-			}
-			&:last-child {
-				background: url("../img/item-3-copy.png") no-repeat 0 9px;
-				margin-bottom: 0;
-				padding-bottom: 5px;
-			}
+		}
+	}
+	.big-bg {
+		background: url("../img/big-kub-bg.png") no-repeat;
+		width: 100%;
+		height: 647px;
+		background-size: contain;
+		padding-top: 160px;
+		margin-left: -92px;
+		margin-top: -50px;
+		margin-right: -98px;
+		.list-block_text {
+			padding: 0 77px;
+		}
+	}
+	.last-text-block {
+		p {
+			font-weight: 700;
+			font-size: 24px;
+			color: #ffffff;
+			text-align: center;
 		}
 	}
 }

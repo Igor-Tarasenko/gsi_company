@@ -7,10 +7,12 @@
 	.header-img {
 		text-align: left;
 		margin-top: 40px;
+		visibility: hidden;
 	}
 	.first-title-block {
 		display: flex;
 		align-items: flex-end;
+		visibility: hidden;
 	}
 	.first-title {
 		margin-top: 184px;
@@ -45,9 +47,12 @@
 		}
 		.second-title {
 			display: inline-block;
-			transform: rotate(-90deg);
 			margin-left: 70px;
 			margin-bottom: 35px;
+			visibility: hidden;
+		}
+		.fours-title, .third-title {
+			visibility: hidden;
 		}
 		h3 {
 			color: #ffffff;
@@ -55,6 +60,7 @@
 	}
 	.last-title {
 		margin-top: 70px;
+		visibility: hidden;
 		h3 {
 			text-align: center;
 			line-height: 48px;
